@@ -1,10 +1,9 @@
+import React from 'react';
 
-const Footer = () => {
-    return (
-        <footer className='container-footer'>
-            <p>footer ok</p>
-        </footer>
-    )
-}
+const Footer = () => (
+  <footer className='container-footer'>
+    <p>&copy; 2023 DagBanc. Todos os direitos reservados.</p> 
+  </footer>
+);
 
-export default Footer
+export default Footer;
